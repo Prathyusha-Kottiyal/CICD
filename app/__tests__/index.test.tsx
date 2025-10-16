@@ -5,6 +5,6 @@ import Index from "../index";
 describe("Index component", () => {
   it("renders the expected text", () => {
     const { getByText } = render(<Index />);
-    expect(getByText("Edit app/index.tsx to edit this screen.")).toBeTruthy();
+    expect(getByText("Edit app/index.tsx to edit tytuy.")).toBeTruthy();
   });
 });
