@@ -22,6 +22,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Run Jest tests
+        run: npm test
+        env:
+          CI: true  # ensures Jest runs in CI mode
+
       - name: Install EAS CLI
         run: npm install -g eas-cli
 
